@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <title>Simple Image Gallery Viewer</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <img id="mainImage" src="https://picsum.photos/id/1015/400/300" alt="Main Image" />
-
-  <div id="thumbnails">
-    <img class="thumbnail selected" src="https://picsum.photos/id/1015/80/60" data-large="https://picsum.photos/id/1015/400/300" alt="Thumb 1" />
-    <img class="thumbnail" src="https://picsum.photos/id/1016/80/60" data-large="https://picsum.photos/id/1016/400/300" alt="Thumb 2" />
-    <img class="thumbnail" src="https://picsum.photos/id/1018/80/60" data-large="https://picsum.photos/id/1018/400/300" alt="Thumb 3" />
-    <img class="thumbnail" src="https://picsum.photos/id/1020/80/60" data-large="https://picsum.photos/id/1020/400/300" alt="Thumb 4" />
+  <div class="imageContainer">
+    <img id="mainImage" src="https://picsum.photos/id/1015/400/300" alt="Main Image" />
+    
+    <div id="thumbnails">
+      <img class="thumbnail selected" src="https://picsum.photos/id/1015/80/60" data-large="https://picsum.photos/id/1015/400/300" alt="Thumb 1" />
+      <img class="thumbnail" src="https://picsum.photos/id/1016/80/60" data-large="https://picsum.photos/id/1016/400/300" alt="Thumb 2" />
+      <img class="thumbnail" src="https://picsum.photos/id/1018/80/60" data-large="https://picsum.photos/id/1018/400/300" alt="Thumb 3" />
+      <img class="thumbnail" src="https://picsum.photos/id/1020/80/60" data-large="https://picsum.photos/id/1020/400/300" alt="Thumb 4" />
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

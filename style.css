@@ -1,9 +1,17 @@
+.imageContainer{
+  background-color: rgb(165, 146, 146);
+  width: 410px;
+  margin: auto;
+  margin-top: 50px;
+}
+
 #mainImage {
   width: 400px;
   height: 300px;
   border: 2px solid #333;
   margin-bottom: 15px;
   object-fit: cover;
+  margin: auto;
 }
 
 .thumbnail {

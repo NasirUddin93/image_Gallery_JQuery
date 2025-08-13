@@ -1,0 +1,20 @@
+#mainImage {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #333;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  object-fit: cover;
+}
+
+.thumbnail.selected {
+  border-color: blue;
+}
